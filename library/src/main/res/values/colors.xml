@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="translucent">#88888888</color>
+    <color name="A1">#2ddcf9</color>
+    <color name="A4">#e5e5e5</color>
+    <color name="B3">#999</color>
+    <color name="A15">#fff</color>
+    <color name="A5">#fc0</color>
+    <color name="A2">#fcfcfc</color>
+</resources>

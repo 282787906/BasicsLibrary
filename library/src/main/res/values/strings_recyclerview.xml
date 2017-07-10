@@ -1,0 +1,11 @@
+<resources>
+    <string name="footer_initialize">加载更多</string>
+    <string name="footer_overThreshold">释放加载更多</string>
+    <string name="footer_noMore"> 全部加载完成</string>
+    <string name="footer_loading">加载中</string>
+    <string name="header_initialize">下拉刷新</string>
+    <string name="header_finish">刷新完成</string>
+    <string name="header_lessThreshold">下拉刷新</string>
+    <string name="header_overThreshold">释放刷新</string>
+    <string name="header_refreshing">加载中</string>
+</resources>

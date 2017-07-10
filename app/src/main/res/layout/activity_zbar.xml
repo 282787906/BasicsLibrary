@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.liqg.basicslibrary.activity.ZbarActivity">
+<com.liqg.library.zbar.ScanView
+
+    android:id="@+id/activity_zbar_ScanView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+</com.liqg.library.zbar.ScanView>
+    <TextView
+        android:id="@+id/activity_zbar_tv_Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</android.support.constraint.ConstraintLayout>

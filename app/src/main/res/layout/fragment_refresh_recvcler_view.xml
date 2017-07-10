@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+
+    <com.liqg.library.refreshrecyclerview.RefreshRecyclerView
+        android:id="@+id/MyRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical">
+
+    </com.liqg.library.refreshrecyclerview.RefreshRecyclerView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true">
+
+        <Button
+            android:id="@+id/fragment_refresh_recvcler_view_but_Refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ReFresh"/>
+
+        <Button
+            android:id="@+id/fragment_refresh_recvcler_view_but_Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"/>
+
+        <Button
+            android:id="@+id/fragment_refresh_recvcler_view_but_Empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empty"/>
+        <Button
+            android:id="@+id/fragment_refresh_recvcler_view_but_Error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Error"/>
+        <Button
+            android:id="@+id/fragment_refresh_recvcler_view_but_End"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End"/>
+    </LinearLayout>
+
+    <include layout="@layout/list_error"></include>
+</RelativeLayout>

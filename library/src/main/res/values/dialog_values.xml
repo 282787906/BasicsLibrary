@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="float_transparent">#00000000</color>
+    <color name="dialog_bg_color">#FFFFFF</color>
+    <color name="dialog_title_line_bg_color">#1aa0ed</color>
+    <color name="dialog_button_bg_color">#1aa0ed</color>
+    <color name="dialog_button_bg_color_gray">#dbd6d6</color>
+    <color name="dialog_button_txt_color">#FFFFFF</color>
+
+    <color name="dialog_title_txt_color_nomal">#575757</color>
+    <color name="dialog_title_txt_color_error">#fe5051</color>
+    <color name="dialog_title_txt_color_success">#8ebc38</color>
+
+    <dimen name="wait_dialog_WH">100dp</dimen>
+</resources>

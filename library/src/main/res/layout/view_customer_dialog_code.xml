@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:background="#fff"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="@dimen/common_margin_large"
+        android:layout_marginRight="@dimen/common_margin_large"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/customer_dialog_code_tv_Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxHeight="200dp"
+            android:minHeight="60dp"
+            android:scrollbars="vertical"
+            android:text="msg"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/common_margin"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin"
+            android:background="@drawable/round3_bg_line_4corners_a4"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_et_height"
+                android:orientation="horizontal">
+
+                <EditText
+
+                    android:id="@+id/customer_dialog_code_et_msgCode"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/hint_code"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:paddingLeft="@dimen/common_margin_small"
+                    android:paddingRight="@dimen/common_margin_small"
+                    android:singleLine="true"
+                    android:text="888888"
+                    android:textColorHint="@color/B3"/>
+
+                <Button
+                    android:id="@+id/customer_dialog_code_but_ReSendCode"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/but_bg"
+                    android:text="@string/getCode"
+                    android:textColor="@color/A15"
+                    android:textSize="@dimen/but_big_size"/>
+            </LinearLayout>
+        </LinearLayout>       </LinearLayout>
+
+        <include layout="@layout/view_customer_dialog_middle_button"></include>
+
+    </LinearLayout>
+</RelativeLayout>
