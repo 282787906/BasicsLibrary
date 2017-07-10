@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.liqg.basicslibrary.activity.DialogActivity">
+
+    <Button
+        android:id="@+id/activity_dialog_btn_DialogUtil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DialogUtil" />
+
+    <Button
+        android:id="@+id/activity_dialog_btn_WaitDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WaitDialog"  />    <Button
+    android:id="@+id/activity_dialog_btn_ProgressDialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ProgressDialog"  />    <Button
+    android:id="@+id/activity_dialog_btn_CodeDialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="CodeDialog"  />    <Button
+    android:id="@+id/activity_dialog_btn_MsgDialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="MsgDialog"  />
+</LinearLayout>
