@@ -9,10 +9,10 @@ import com.liqg.library.http.RequestType;
  * 2016/7/20 09:04
  * Note :
  */
-public class DownloadApk extends BaseDownload {
+public class DownloadFile extends BaseDownload {
 
 
-    public DownloadApk(Context context, RequestType requestType, String url, String path, String fileName) {
+    public DownloadFile(Context context, RequestType requestType, String url, String path, String fileName) {
         super(context, requestType, url, path, fileName);
     }
 

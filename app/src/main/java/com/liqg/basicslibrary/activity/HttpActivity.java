@@ -10,7 +10,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.liqg.basicslibrary.R;
-import com.liqg.basicslibrary.http.DownloadApk;
+import com.liqg.basicslibrary.http.DownloadFile;
 import com.liqg.basicslibrary.http.SubmitCommon;
 import com.liqg.library.business.Permission.CheckPermissionCallback;
 import com.liqg.library.business.Permission.Permission;
@@ -149,11 +149,11 @@ public class HttpActivity extends BaseActivity implements View.OnClickListener {
 
 
     private void download() {
-        DownloadApk downloadApk = new DownloadApk(mContext, RequestType.GET,
+        DownloadFile downloadFile = new DownloadFile(mContext, RequestType.GET,
                 nohttpEtDownLoad.getText().toString()
                 , DOWNLOAD_FILE_PATH,
                 DOWNLOAD_FILE_NAME);
-        downloadApk.submit(new ResponseCallbackProgress() {
+        downloadFile.submit(new ResponseCallbackProgress() {
             @Override
             public void onSuccess() {
                 ToastUtil.shortToast(mContext, "Download Success");

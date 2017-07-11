@@ -7,7 +7,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.liqg.basicslibrary.R;
-import com.liqg.basicslibrary.http.DownloadApk;
+import com.liqg.basicslibrary.http.DownloadFile;
 import com.liqg.basicslibrary.http.SubmitUpdate;
 import com.liqg.basicslibrary.module.ModuleUpdate;
 import com.liqg.library.business.AppManager;
@@ -121,7 +121,7 @@ public class AppUpdateManager {
         }
         final ProgressDialogUtil progressDialogUtil = new ProgressDialogUtil();
         progressDialogUtil.showProgress(activity);
-        DownloadApk downloadTask = new DownloadApk(activity,RequestType.GET,"http://12366app.tax.sh.gov.cn"+  module.getUpdateUrl(), filePath, fileName);
+        DownloadFile downloadTask = new DownloadFile(activity,RequestType.GET,"http://12366app.tax.sh.gov.cn"+  module.getUpdateUrl(), filePath, fileName);
 
                 downloadTask.submit(new ResponseCallbackProgress() {
             @Override

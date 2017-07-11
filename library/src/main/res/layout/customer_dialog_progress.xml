@@ -46,7 +46,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/customer_dialog_progress_pb_Progress"
-            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+
+            style="?android:attr/progressBarStyleHorizontal"
 
             />
 
