@@ -12,7 +12,7 @@ public class LiEnvironment {
     /**
      * 是否有SdCard
      *
-     * @return
+     * return
      */
     public static boolean isSdCardExist() {
         if (Environment.getExternalStorageState().equals(

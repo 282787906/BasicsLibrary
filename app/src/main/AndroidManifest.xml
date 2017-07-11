@@ -36,7 +36,10 @@
         <activity android:name=".activity.DialogActivity" />
         <activity android:name=".activity.ZbarActivity" />
         <activity android:name=".fragment.HttpFragment" />
-        <activity android:name=".activity.HttpActivity"></activity>
+        <activity android:name=".activity.HttpActivity" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
     </application>
 
 </manifest>

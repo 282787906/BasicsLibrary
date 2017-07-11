@@ -69,8 +69,11 @@ startActivity(ZbarActivity.class);
         } else if (id == R.id.nav_dialog) {
             startActivity(DialogActivity.class);
         }else if (id == R.id.nav_http) {
-           // showFragment(HttpFragment.newInstance());
+            // showFragment(HttpFragment.newInstance());
             startActivity(HttpActivity.class);
+        }else if (id == R.id.nav_settings) {
+
+            startActivity(SettingsActivity.class);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
