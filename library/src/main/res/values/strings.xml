@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Library</string>
     <string name="hint_code">请输入验证码</string>
     <string name="getCode">获取验证码</string>
 </resources>
