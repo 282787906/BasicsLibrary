@@ -57,9 +57,7 @@
                     android:maxLength="6"
                     android:paddingLeft="@dimen/common_margin_small"
                     android:paddingRight="@dimen/common_margin_small"
-                    android:singleLine="true"
-                    android:text="888888"
-                    android:textColorHint="@color/B3"/>
+                    android:maxLines="1"/>
 
                 <Button
                     android:id="@+id/customer_dialog_code_but_ReSendCode"
@@ -67,7 +65,7 @@
                     android:layout_height="match_parent"
                     android:background="@drawable/but_bg"
                     android:text="@string/getCode"
-                    android:textColor="@color/A15"
+                    android:textColor="#fff"
                     android:textSize="@dimen/but_big_size"/>
             </LinearLayout>
         </LinearLayout>       </LinearLayout>

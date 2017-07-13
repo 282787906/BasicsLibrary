@@ -8,5 +8,5 @@
         android:topRightRadius="@dimen/bg_round_radius_small"
         android:bottomLeftRadius="0dp"/>
     <solid
-        android:color="@color/A5"/>
+        android:color="@color/basics_dialog_light"/>
 </shape>

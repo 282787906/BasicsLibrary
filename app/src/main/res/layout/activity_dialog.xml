@@ -16,17 +16,29 @@
         android:id="@+id/activity_dialog_btn_WaitDialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="WaitDialog"  />    <Button
-    android:id="@+id/activity_dialog_btn_ProgressDialog"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="ProgressDialog"  />    <Button
-    android:id="@+id/activity_dialog_btn_CodeDialog"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="CodeDialog"  />    <Button
-    android:id="@+id/activity_dialog_btn_MsgDialog"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="MsgDialog"  />
+        android:text="WaitDialog" />
+
+    <Button
+        android:id="@+id/activity_dialog_btn_ProgressDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ProgressDialog" />
+
+    <Button
+        android:id="@+id/activity_dialog_btn_CodeDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CodeDialog" />
+
+    <Button
+        android:id="@+id/activity_dialog_btn_MsgDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MsgDialog" />
+
+    <Button
+        android:id="@+id/activity_dialog_btn_BottomDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BottomDialog" />
 </LinearLayout>
