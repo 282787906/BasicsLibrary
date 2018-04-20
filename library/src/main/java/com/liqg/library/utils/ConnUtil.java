@@ -15,7 +15,7 @@ public class ConnUtil {
      * @param context
      * @return wifi | mobile | null
      */
-
+@Deprecated
     public static String getNetType(Context context) {
         ConnectivityManager connectivityManager = (ConnectivityManager) context
                 .getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -27,5 +27,31 @@ public class ConnUtil {
         } else {
             return null;
         }
+    }
+
+    /**
+     *
+     *
+     * @param context
+     * @return wifi | mobile | null
+     */
+
+    public static ConnType getConnType(Context context) {
+        ConnectivityManager connectivityManager = (ConnectivityManager) context
+                .getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connectivityManager
+                .getActiveNetworkInfo();
+        if (networkInfo != null && networkInfo.isAvailable()) {
+            if (networkInfo.getTypeName().toLowerCase().equals("wifi")){
+                return ConnType.WIFI;
+            } else{
+                return  ConnType.MOBILE;
+            }
+        } else {
+            return ConnType.NULL;
+        }
+    }
+    public enum  ConnType{
+        WIFI,MOBILE,NULL
     }
 }

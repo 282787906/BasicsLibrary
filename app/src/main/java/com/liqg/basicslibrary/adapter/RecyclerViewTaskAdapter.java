@@ -15,7 +15,7 @@ import com.liqg.library.refreshrecyclerview.BaseRecyclerViewAdapter;
  * 2016/10/31 13:04
  * Note :
  */
-public class RecyclerViewTaskAdapter extends BaseRecyclerViewAdapter {
+public class    RecyclerViewTaskAdapter extends BaseRecyclerViewAdapter {
 
 
     public RecyclerViewTaskAdapter(Context context) {

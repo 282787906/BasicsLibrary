@@ -1,9 +1,9 @@
 <!--<?xml version="1.0" encoding="utf-8"?>-->
 <resources>
 
-    <dimen name="common_margin_large">20dp</dimen>
-    <dimen name="common_margin">16dp</dimen>
-    <dimen name="common_margin_small">12dp</dimen>
+    <dimen name="common_margin_large">16dp</dimen>
+    <dimen name="common_margin">12dp</dimen>
+    <dimen name="common_margin_small">8dp</dimen>
     <dimen name="bg_round_radius_small">3dp</dimen>
     <dimen name="common_et_height">44dp</dimen>
     <dimen name="but_big_size">18sp</dimen>
